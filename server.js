@@ -3,7 +3,7 @@ const express = require('express');
 const connectDB = require('./config/db')
 const errorHandler = require('./middleware/error')
 
-// Conectamos la DB mongo hermoso <3
+// Conectamos la DB
 connectDB();
 
 const app = express();
